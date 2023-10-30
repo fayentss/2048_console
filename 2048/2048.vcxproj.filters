@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\class">
+      <UniqueIdentifier>{a020811c-7b4a-4ee8-8abb-fb435e045076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\class\tile">
+      <UniqueIdentifier>{f5d6fa46-8f73-4281-acdb-c7452061a618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\class\grid">
+      <UniqueIdentifier>{f085833a-49e5-40da-8b14-f248ad3ad318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\class\gameobject">
+      <UniqueIdentifier>{4c5a655e-ba28-4f0f-b792-5bf7b3aa466d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>Fichiers sources\class\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="grid.cpp">
+      <Filter>Fichiers sources\class\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object.cpp">
+      <Filter>Fichiers sources\class\gameobject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tile.h">
+      <Filter>Fichiers sources\class\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="grid.h">
+      <Filter>Fichiers sources\class\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object.h">
+      <Filter>Fichiers sources\class\gameobject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
